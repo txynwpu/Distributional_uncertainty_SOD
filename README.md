@@ -8,7 +8,7 @@ Most of the existing salient object detection (SOD) models focus on improving th
 
 ## Distributional Uncertainty
 
-![image](https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png#pic_center 500x1200)
+![image](https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png#pic_center =500x1200)
 
 <img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png" width="500" alt="" align=center />
 
