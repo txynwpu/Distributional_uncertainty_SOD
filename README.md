@@ -8,6 +8,8 @@ Most of the existing salient object detection (SOD) models focus on improving th
 
 ## Distributional Uncertainty
 
+![image](https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png#pic_center 500x1200)
+
 <img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png" width="500" alt="" align=center />
 
 Visualization of different types of uncertainty, where aleatoric uncertainty $p(y|x^\star,\theta)$ is caused by the inherent randomness of the data, model uncertainty $p(\theta|D)$ happens when there exists low-density region, leading to multiple solutions within this region, and distributional uncertainty $p(x^\star|D)$ occurs when the test sample $x^\star$ fails to fit in the model based on the training dataset $D$. 
