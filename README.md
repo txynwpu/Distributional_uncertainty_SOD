@@ -8,14 +8,13 @@ Most of the existing salient object detection (SOD) models focus on improving th
 
 ## Distributional Uncertainty
 
-<img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png" width="600" alt="net" align=center />
+<img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/uncertainty_explain.png" width="500" alt="" align=center />
 
 Visualization of different types of uncertainty, where aleatoric uncertainty $p(y|x^\star,\theta)$ is caused by the inherent randomness of the data, model uncertainty $p(\theta|D)$ happens when there exists low-density region, leading to multiple solutions within this region, and distributional uncertainty $p(x^\star|D)$ occurs when the test sample $x^\star$ fails to fit in the model based on the training dataset $D$. 
 
 ## Motivation
 
-![image](https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/sod_distributional_uncertainty.png)
-<!-- <img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/sod_distributional_uncertainty.png" width="700" alt="net"/><br/> -->
+<img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/sod_distributional_uncertainty.png" width="600" alt="" align=center />
 
 “OOD” samples for salient object detection. Different from the class-aware tasks, OOD for saliency detection is continuous, which can be defined as attributes that break the basic saliency priors, _i.e._ center prior, contrast prior, compactness prior, _etc_. We aim to explore distributional uncertainty estimation for saliency detection.
 
