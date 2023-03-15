@@ -14,7 +14,7 @@ Visualization of different types of uncertainty, where aleatoric uncertainty $p(
 
 ## Motivation
 
-<img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/sod_distributional_uncertainty.png" width="600" alt="" align=center />
+<img src="https://github.com/txynwpu/Distributional_uncertainty_SOD/blob/main/image/sod_distributional_uncertainty.png" width="800" alt="" align=center />
 
 “OOD” samples for salient object detection. Different from the class-aware tasks, OOD for saliency detection is continuous, which can be defined as attributes that break the basic saliency priors, _i.e._ center prior, contrast prior, compactness prior, _etc_. We aim to explore distributional uncertainty estimation for saliency detection.
 
